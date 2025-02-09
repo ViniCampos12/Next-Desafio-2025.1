@@ -32,6 +32,6 @@
     ".next/types/**/*.ts",
     "src/**/*",
     "prisma/**/*"
-  ],
+, "src/app", "lib"  ],
   "exclude": ["node_modules"]
 }
