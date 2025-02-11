@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Capriola } from "next/font/google";
+import { Capriola, Ovo } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
@@ -14,6 +14,11 @@ const capriola = Capriola({
   subsets: ['latin'],
 })
 
+const ovo = Ovo({
+  weight: [ '400'],
+  style: ['normal'],
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: "Vinishoes",

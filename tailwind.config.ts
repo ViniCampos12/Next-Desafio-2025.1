@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const { fontFamily } = require('tailwindcss/defaultTheme')
 
 const config: Config = {
   content: [
@@ -25,7 +26,12 @@ const config: Config = {
         'white-vs': '#F8F8F8',
         'black-vs': '#222222',
         'blue-dark-vs': '#090056',
-      }
+        'gray-vs': '#A2A2A2'
+      },
+      fontFamily: {
+        capriola: ['Capriola', ...fontFamily.sans],
+        ovo: ['Ovo', ...fontFamily.serif],
+      },
     },
   },
   plugins: [],

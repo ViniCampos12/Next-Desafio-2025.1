@@ -25,7 +25,7 @@ export default function Navbar(){
     //Inverte o valor atual
 
    return(
-    <header className="bg-primary text-white-vs sticky top-0 z-20 mx-auto w-full lg:px-5 ms:p-0 mb-8">
+    <header className="bg-primary text-white-vs sticky top-0 z-20 mx-auto w-full lg:px-5 ms:p-0">
         <div className="w-full flex justify-between items-center">
             <div className={`flex items-center justify-center gap-2 ${isNavOpen ? 'w-full': ''}  lg:px-5`}>
                 <Link href="/">
