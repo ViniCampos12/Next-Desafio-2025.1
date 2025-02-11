@@ -4,6 +4,10 @@ import "./globals.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
+
 const capriola = Capriola({
   weight: [ '400'],
   style: ['normal'],

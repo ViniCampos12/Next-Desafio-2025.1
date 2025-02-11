@@ -24,34 +24,32 @@ export default function Navbar(){
     const toggleNav = () => setIsNavOpen(!isNavOpen)
     //Inverte o valor atual
 
-    // lg:grid lg:grid-flow-col lg:grid-cols-6
-    // ${isAdminSidebarOpen ? '' : '-translate-x-full
    return(
-    <header className="bg-primary text-white-vs sticky top-0 z-20 mx-auto w-full md:px-5 ms:p-0 mb-8">
+    <header className="bg-primary text-white-vs sticky top-0 z-20 mx-auto w-full lg:px-5 ms:p-0 mb-8">
         <div className="w-full flex justify-between items-center">
-            <div className={`flex items-center justify-center gap-2 ${isNavOpen ? 'w-full': ''}  md:px-5`}>
+            <div className={`flex items-center justify-center gap-2 ${isNavOpen ? 'w-full': ''}  lg:px-5`}>
                 <Link href="/">
                     <Image
                         src="/logo/logo.png"
                         alt="Logo do site"
                         width={904}
                         height={904}
-                        className="h-20 w-20 rounded-xl"
+                        className="h-20 w-20 rounded-xl object-cover min-w-20"
                     />
                 </Link>
-                <Link href="/" className="text-lg md:text-3xl">
+                <Link href="/" className="text-lg lg:text-3xl">
                     <span>Vinishoes</span>
                 </Link>
             </div>
-            <nav className="pr-5 md:pr-5">
-                <div className="hidden md:flex flex-start gap-6 text">
+            <nav className="pr-5 lg:pr-5">
+                <div className="hidden lg:flex flex-start gap-6 text">
                     {links.map((link,index) => (
-                        <Link href={link.href} key={index}>
+                        <Link href={link.href} key={index} className="hover:scale-110 transition-all duration-200">
                             {link.label === "" ? <link.icone size={24} /> : <span>{link.label}</span>}
                         </Link>
                     ))}
                 </div>
-                <div className="md:hidden">
+                <div className="lg:hidden">
                     {!isNavOpen ? 
                         <Menu
                             onClick={toggleNav}

@@ -2,6 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <h1>Vasco</h1>
+    <div className="h-screen">
+      <h1>Vasco</h1>
+    </div>
+    
   );
 }
