@@ -18,7 +18,7 @@ export default function HeroSection(){
                 <p className="text-sm font-ovo lg:text-2xl text-center">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                 </p>
-                <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-4 lg:py-3 lg:w-8/12 " type="button">
+                <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-4 lg:py-3 " type="button">
                     <Link href="/">
                         Conheça nossos produtos
                     </Link>
