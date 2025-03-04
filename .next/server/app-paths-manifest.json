@@ -1,4 +1,4 @@
 {
-  "/(home)/produtos/page": "app/(home)/produtos/page.js",
-  "/(home)/page": "app/(home)/page.js"
+  "/(home)/page": "app/(home)/page.js",
+  "/(home)/produtos/page": "app/(home)/produtos/page.js"
 }
