@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Card(){
     return(
-        <Link href="/" className="flex flex-col gap-3 w-32 hover:border-black-vs hover:border transition-all duration-200 hover:scale-105 rounded-sm md:w-40 lg:w-80">
+        <Link href="/produto" className="flex flex-col gap-3 w-32 hover:border-black-vs hover:border transition-all duration-200 hover:scale-105 rounded-sm md:w-40 lg:w-80">
             <Image
                 src="/home/airJordan1.png"
                 alt="Produto"
