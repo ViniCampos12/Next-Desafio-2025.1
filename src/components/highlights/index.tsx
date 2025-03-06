@@ -15,7 +15,7 @@ export default function Highlights(){
                     <Link href="/">
                         Veja mais
                     </Link>
-                </button>
+            </button>
         </section>
     )
 }
