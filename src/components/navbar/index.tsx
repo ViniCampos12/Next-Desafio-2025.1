@@ -10,7 +10,7 @@ const links = [
     {href: '/', label: 'Home', icone: House},
     {href: '/produtos', label: 'Produtos', icone: House},
     {href: '/contato', label: 'Contato', icone: House},
-    {href: '/', label: 'Gerenciamento', icone: House},
+    {href: '/gerenciamento', label: 'Gerenciamento', icone: House},
     {href: '/login', label: 'Login', icone: House},
     {href: '/', label: '', icone: ShoppingCart}
 ]

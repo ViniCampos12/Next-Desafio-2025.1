@@ -564,6 +564,10 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -585,8 +589,14 @@ video {
 .mt-24 {
   margin-top: 6rem;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
 .flex {
   display: flex;
+}
+.table {
+  display: table;
 }
 .grid {
   display: grid;
@@ -665,6 +675,12 @@ video {
 }
 .flex-1 {
   flex: 1 1 0%;
+}
+.table-auto {
+  table-layout: auto;
+}
+.table-fixed {
+  table-layout: fixed;
 }
 .cursor-default {
   cursor: default;
