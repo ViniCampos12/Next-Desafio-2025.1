@@ -16,11 +16,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(home)/produtos/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(home)/produtos/page.js"
-    ],
     "/(home)/produto/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
