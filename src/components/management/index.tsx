@@ -5,11 +5,11 @@ import ButtonAction from "./buttonAction"
 
 export default function Manegement(){
     return(
-        <div className="flex flex-col space-y-3 my-8 mx-3 ">
+        <div className="flex flex-col space-y-3 my-8 mx-3 lg:mx-9 ">
             <div className="flex justify-between items-center mx-3">
                 <h1 className="text-base lg:text-2xl">Gerenciamento de Produtos</h1>
-                <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-4 lg:py-3" type="button">
-                    <Link href="/" className="flex items-center gap-2">
+                <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-4 lg:py-3 hover:bg-[#140a85] transition-all duration-300" type="button">
+                    <Link href="/gerenciamento/criar" className="flex items-center gap-2">
                         Criar <Plus/>
                     </Link>
                 </button>
@@ -43,9 +43,9 @@ export default function Manegement(){
                             <td className="hidden md:table-cell text-sm text-left p-3">Inspirado no AJ1 original, essa edição cano médio mantém o visual icônico que você ama</td>
                             <td className="md:pr-2">
                                 <div className="md:flex gap-2 hidden">
-                                    <ButtonAction icon={<Eye size={20}/>}/>
-                                    <ButtonAction icon={<Pencil size={20}/>}/>
-                                    <ButtonAction icon={<Trash size={20}/>}/>
+                                    <ButtonAction icon={<Eye size={20}/>} pageName={"gerenciamento/visualizar"}/>
+                                    <ButtonAction icon={<Pencil size={20}/>} pageName={"gerenciamento/editar"}/>
+                                    <ButtonAction icon={<Trash size={20}/>} pageName={"gerenciamento"}/>
                                 </div>
                                 <div className="md:hidden">
                                     <EllipsisVertical/>

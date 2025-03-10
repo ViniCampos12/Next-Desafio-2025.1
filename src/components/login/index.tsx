@@ -1,6 +1,7 @@
 import { Eye } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import ButtonVs from "../buttonVs";
 
 export default function Login(){
     return(
@@ -14,11 +15,7 @@ export default function Login(){
                     className="h-20 w-20 rounded-xl object-cover min-w-20 lg:h-36 lg:w-36"
                 />
                 <div className="flex justify-center items-center">
-                    <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-4 lg:py-3" type="button">
-                        <Link href="/login/cadastro">
-                            Cadastrar-se
-                        </Link>
-                    </button>
+                    <ButtonVs text={"Cadastrar-se"} pageName={"login/cadastro"}/>
                 </div>
             </div>
             <div className="flex justify-center items-center w-full mb-4 p-4 lg:px-10">
@@ -35,7 +32,7 @@ export default function Login(){
                         </div>
                     </div>
                     <div className="flex justify-center">
-                        <button className="bg-primary text-white-vs text-sm p-2 px-4 rounded-2xl lg:text-xl lg:px-4 lg:py-3" type="submit">
+                        <button className="bg-primary text-white-vs text-sm p-2 px-4 rounded-2xl lg:text-xl lg:px-4 lg:py-3 hover:bg-[#140a85] transition-all duration-300" type="submit">
                             <Link href="/">
                                 Entrar
                             </Link>

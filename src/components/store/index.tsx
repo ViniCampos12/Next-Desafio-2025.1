@@ -9,7 +9,7 @@ export default function Store(){
             <h1 className="text-xl lg:text-3xl mb-3 lg:p-3">Nossos Produtos</h1>
             <div className="bg-gradient-to-r from-white-vs/15 to-black-vs/15 rounded-xl w-full py-3 flex flex-col gap-4">
                 <div className="w-full flex justify-end items-center px-3 lg:p-6">
-                    <div className="flex bg-primary items-center justify-center text-[8px]  w-48 lg:w-60 lg:px-2 rounded-2xl gap-1 text-white-vs h-full p-1 lg:py-2">
+                    <div className="flex bg-primary items-center justify-center text-[8px]  w-48 lg:w-60 lg:px-2 rounded-2xl gap-1 text-white-vs h-full p-1 lg:py-2 hover:scale-105 transition-all duration-200">
                         <input type="text" className="flex-1 h-full px-2 outline-none bg-transparent md:text-sm lg:text-md"/>
                         <Search size={16}/>
                     </div>

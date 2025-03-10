@@ -33,7 +33,7 @@ export default function Register(){
                         </div>
                     </div>
                     <div className="flex justify-center items-center">
-                        <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-4 lg:py-3" type="button">
+                        <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-4 lg:py-3 hover:bg-[#140a85] transition-all duration-300" type="submit">
                             <Link href="/login">
                                 Cadastrar-se    
                             </Link>

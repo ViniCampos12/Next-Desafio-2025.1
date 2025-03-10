@@ -13,7 +13,7 @@ export default function Footer(){
                     alt="Logo do site"
                     width={904}
                     height={904}
-                    className="h-28 w-28 rounded-xl lg:h-28 lg:w-28 cursor-pointer"
+                    className="h-28 w-28 rounded-xl lg:h-28 lg:w-28 cursor-pointer hover:scale-110 transition-all duration-400"
                 />
             </Link>
             <div className="text-sm lg:text-3xl cursor-default md:text-xl">

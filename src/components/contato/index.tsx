@@ -21,7 +21,7 @@ export default function Contato() {
               <textarea name="Mensagem" className="border p-1 rounded-xl lg:w-11/12 resize-none" ></textarea>
             </div>
             <div className="flex justify-center">
-                <button className="bg-primary text-white-vs text-sm p-2 px-4 rounded-2xl lg:text-xl lg:px-4 lg:py-3" type="submit">
+                <button className="bg-primary text-white-vs text-sm p-2 px-4 rounded-2xl lg:text-xl lg:px-4 lg:py-3 hover:bg-[#140a85] transition-all duration-300 " type="submit">
                         Enviar
                 </button>
             </div>

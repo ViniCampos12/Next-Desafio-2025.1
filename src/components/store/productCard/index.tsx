@@ -17,8 +17,8 @@ export default function ProductCard(){
                 <p className="text-black-bg text-[10px]">Tênis Casual Masculino</p>
             </div>
             <div className="flex items-center justify-center">
-                <button className="bg-primary text-white-vs text-sm p-2 lg:text-xl lg:px-4 lg:py-3" type="button">
-                        <Link href="/">
+                <button className="bg-primary text-white-vs text-sm p-2 lg:text-xl lg:px-4 lg:py-3 hover:bg-[#140a85] transition-all duration-300" type="button">
+                        <Link href="/produto">
                             Ver mais
                         </Link>
                 </button>
