@@ -17,35 +17,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/(home)/produto/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(home)/produto/[id]/page.js"
+    ],
     "/(home)/produtos/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(home)/produtos/page.js"
     ],
-    "/(home)/contato/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(home)/contato/page.js"
-    ],
-    "/(home)/gerenciamento/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(home)/gerenciamento/page.js"
-    ],
-    "/(home)/gerenciamento/editar/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(home)/gerenciamento/editar/[id]/page.js"
-    ],
-    "/(home)/gerenciamento/visualizar/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(home)/gerenciamento/visualizar/[id]/page.js"
-    ],
-    "/(home)/produto/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(home)/produto/[id]/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

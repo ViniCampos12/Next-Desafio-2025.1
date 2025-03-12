@@ -7,7 +7,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 
-import { BrandsCard } from "../../../../types/home/home"
+import { BrandsCard } from "../../../../types/data"
 
 import Image from "next/image";
 
