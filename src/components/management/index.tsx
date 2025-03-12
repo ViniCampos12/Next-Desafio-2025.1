@@ -1,7 +1,7 @@
 import { EllipsisVertical, Eye, Pencil, Plus, Trash } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import ButtonAction from "./buttonAction"
+import { DeleteButton, EditButton, ViewButton } from "./buttonAction"
 
 export default function Manegement(){
     return(
@@ -43,9 +43,12 @@ export default function Manegement(){
                             <td className="hidden md:table-cell text-sm text-left p-3">Inspirado no AJ1 original, essa edição cano médio mantém o visual icônico que você ama</td>
                             <td className="md:pr-2">
                                 <div className="md:flex gap-2 hidden">
-                                    <ButtonAction icon={<Eye size={20}/>} pageName={"gerenciamento/visualizar"}/>
+                                    <ViewButton id={1}/>
+                                    <EditButton id={1}/>
+                                    <DeleteButton id={1}/>
+                                    {/* <ButtonAction icon={<Eye size={20}/>} pageName={"gerenciamento/visualizar"}/>
                                     <ButtonAction icon={<Pencil size={20}/>} pageName={"gerenciamento/editar"}/>
-                                    <ButtonAction icon={<Trash size={20}/>} pageName={"gerenciamento"}/>
+                                    <ButtonAction icon={<Trash size={20}/>} pageName={"gerenciamento"}/> */}
                                 </div>
                                 <div className="md:hidden">
                                     <EllipsisVertical/>

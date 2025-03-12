@@ -21,7 +21,7 @@ export default function EditProduct(){
                         <input type="text" className="border-2 p-1 px-2 rounded-xl w-full  bg-transparent border-white-vs mb-2"  onChange={(e) => setDescription(e.target.value)} value={description} />
                         <label className="text-white-vs lg:text-xl">Preço:</label>
                         <input type="number" className="border-2 p-1 px-2 rounded-xl w-full  bg-transparent border-white-vs mb-2" onChange={(e) => setPrice(parseFloat(e.target.value) || 0)} value={price}/>
-                        <label className="text-white-vs lg:text-xl">Tamanho:</label>
+                        <label className="text-white-vs lg:text-xl">Tamanhos:</label>
                         <input type="number" className="border-2 p-1 px-2 rounded-xl w-full  bg-transparent border-white-vs mb-2"  onChange={(e) => setSize(parseInt(e.target.value) || 0)} value={size}/>
                         <label className="flex flex-col w-full">
                             Imagem:

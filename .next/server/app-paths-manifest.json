@@ -1,5 +1,7 @@
 {
-  "/(home)/page": "app/(home)/page.js",
-  "/(home)/produtos/page": "app/(home)/produtos/page.js",
-  "/(home)/produto/page": "app/(home)/produto/page.js"
+  "/(home)/contato/page": "app/(home)/contato/page.js",
+  "/(home)/gerenciamento/page": "app/(home)/gerenciamento/page.js",
+  "/(home)/gerenciamento/visualizar/[id]/page": "app/(home)/gerenciamento/visualizar/[id]/page.js",
+  "/(home)/produto/[id]/page": "app/(home)/produto/[id]/page.js",
+  "/(home)/gerenciamento/editar/[id]/page": "app/(home)/gerenciamento/editar/[id]/page.js"
 }

@@ -32,20 +32,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(home)/gerenciamento/page.js"
     ],
-    "/login/page": [
+    "/(home)/gerenciamento/editar/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/login/page.js"
+      "static/chunks/app/(home)/gerenciamento/editar/[id]/page.js"
     ],
-    "/login/layout": [
+    "/(home)/gerenciamento/visualizar/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/login/layout.js"
+      "static/chunks/app/(home)/gerenciamento/visualizar/[id]/page.js"
     ],
-    "/(home)/produto/page": [
+    "/(home)/produto/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(home)/produto/page.js"
+      "static/chunks/app/(home)/produto/[id]/page.js"
     ]
   }
 }
