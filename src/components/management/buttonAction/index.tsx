@@ -2,8 +2,9 @@
 
 import { Eye, Pencil, Trash } from "lucide-react"
 import Link from "next/link"
+import { deleteProduct } from "../../../../actions/admin/products/actions"
 
-export function EditButton({id}: {id:number}){
+export function EditButton({id}: {id:number | undefined}){
     return(
         <Link href={`/gerenciamento/editar/${id}`} className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-3 lg:py-1 ">
             <button className="flex items-center gap-2 hover:scale-110 transition-all duration-200">
@@ -14,7 +15,7 @@ export function EditButton({id}: {id:number}){
     
 }
 
-export function ViewButton({id}: {id:number}){
+export function ViewButton({id}: {id:number | undefined}){
     return(
         <Link href={`/gerenciamento/visualizar/${id}`} className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-3 lg:py-1 ">
             <button className="flex items-center gap-2 hover:scale-110 transition-all duration-200">
@@ -24,9 +25,9 @@ export function ViewButton({id}: {id:number}){
     )
 }
 
-export function DeleteButton({id}: {id:number}){
+export function DeleteButton({id}: {id:number | undefined}){
     return(
-        <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-3 lg:py-1 " type="button">
+        <button onClick={() => deleteProduct(id)} className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-3 lg:py-1 " type="button">
                  <Trash size={20} className=" gap-2 hover:scale-110 transition-all duration-200"/>
          </button>
     )

@@ -2,8 +2,9 @@ import { EllipsisVertical, Eye, Pencil, Plus, Trash } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { DeleteButton, EditButton, ViewButton } from "./buttonAction"
+import { Product } from "@prisma/client"
 
-export default function Manegement(){
+export default function Manegement({products, count}: {products: Product[], count:number}){
     return(
         <div className="flex flex-col space-y-3 my-8 mx-3 lg:mx-9 ">
             <div className="flex justify-between items-center mx-3">
@@ -27,34 +28,33 @@ export default function Manegement(){
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-primary">
-                        <tr className="max-h-16 py-2">
+                        {products.map((product,index) => (
+                            <tr className="max-h-16 py-2">
                             <td className="hidden p-3 md:table-cell md:mt-2 ">
                                 <Image
-                                    src="/home/airJordan1.png"
+                                    src={product?.image || "/home/airJordan1.png"}   
                                     alt="Foto do produto"
                                     width={200}
                                     height={200}
                                     className="object-cover rounded-md shadow-sm md:max-h-14 md:max-w-14"
                                 />
                             </td>
-                            <td className="text-sm text-left p-3">1</td>
-                            <td className="text-sm text-left p-3">Air Jordan 1 High OGMidnight Navy</td>
-                            <td className="text-sm text-left p-3">800,00</td>
-                            <td className="hidden md:table-cell text-sm text-left p-3">Inspirado no AJ1 original, essa edição cano médio mantém o visual icônico que você ama</td>
+                            <td className="text-sm text-left p-3">{product?.id}</td>
+                            <td className="text-sm text-left p-3">{product?.name}</td>
+                            <td className="text-sm text-left p-3">{product?.price}</td>
+                            <td className="hidden md:table-cell text-sm text-left p-3">{product?.description}</td>  {/*slice 1:32*/}
                             <td className="md:pr-2">
                                 <div className="md:flex gap-2 hidden">
-                                    <ViewButton id={1}/>
-                                    <EditButton id={1}/>
-                                    <DeleteButton id={1}/>
-                                    {/* <ButtonAction icon={<Eye size={20}/>} pageName={"gerenciamento/visualizar"}/>
-                                    <ButtonAction icon={<Pencil size={20}/>} pageName={"gerenciamento/editar"}/>
-                                    <ButtonAction icon={<Trash size={20}/>} pageName={"gerenciamento"}/> */}
+                                    <ViewButton id={product?.id}/>
+                                    <EditButton id={product?.id}/>
+                                    <DeleteButton id={product?.id}/>
                                 </div>
                                 <div className="md:hidden">
                                     <EllipsisVertical/>
                                 </div>
                             </td>
                         </tr>
+                        ))}                      
                     </tbody>
                 </table>
             </div>
