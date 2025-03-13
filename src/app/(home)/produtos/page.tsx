@@ -1,4 +1,5 @@
 import Store from "@/components/store";
+import { fetchFilteredProducts } from "../../../../actions/search/actions";
 
 export default async function ProductsPage({
     searchParams,
@@ -10,11 +11,13 @@ export default async function ProductsPage({
 }) {
 
     const query = searchParams?.query || '';
-    const page = searchParams?.page || 1;
+    const currentPage = Number(searchParams?.page) || 1;
+
+    const {products,count,totalPages} = await fetchFilteredProducts(query,currentPage)
 
     return(
         <div>
-            <Store/>
+            <Store products={products} count={count} totalPages={totalPages} />
         </div>
     )
 }

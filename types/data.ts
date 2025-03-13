@@ -8,7 +8,7 @@ export type Products = {
     name?: string;
     image?: string;
     price?: number;
-    description?: string;
+    description?: string | null;
     sizes?: number[];
 }
 
