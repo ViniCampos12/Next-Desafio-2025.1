@@ -7,76 +7,8 @@
       "layer": {
         "app/(home)/page": "rsc"
       }
-    },
-    "1ce1185b7c6efc8884d3877bcd0b64598d6df147": {
-      "workers": {
-        "app/(home)/produto/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5CindividualProduct%5C%5Cactions.ts%22%2C%5B%22fetchProductById%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/editar/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5CindividualProduct%5C%5Cactions.ts%22%2C%5B%22fetchProductById%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/(home)/produto/[id]/page": "rsc",
-        "app/(home)/gerenciamento/editar/[id]/page": "rsc"
-      }
-    },
-    "e49cde4f8806d712126835ca3917ab2b52535584": {
-      "workers": {
-        "app/(home)/gerenciamento/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/criar/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/editar/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/(home)/gerenciamento/page": "rsc",
-        "app/(home)/gerenciamento/criar/page": "rsc",
-        "app/(home)/gerenciamento/editar/[id]/page": "action-browser"
-      }
-    },
-    "55b8716aa9d029c19fd7fd4ab5cc4b10faf66bd8": {
-      "workers": {
-        "app/(home)/gerenciamento/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/criar/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/editar/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/(home)/gerenciamento/page": "rsc",
-        "app/(home)/gerenciamento/criar/page": "rsc",
-        "app/(home)/gerenciamento/editar/[id]/page": "action-browser"
-      }
-    },
-    "6f5b2196324ff2c2bbeead013dee99b34efea9b3": {
-      "workers": {
-        "app/(home)/gerenciamento/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/criar/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/editar/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/(home)/gerenciamento/page": "rsc",
-        "app/(home)/gerenciamento/criar/page": "rsc",
-        "app/(home)/gerenciamento/editar/[id]/page": "action-browser"
-      }
-    },
-    "e80c37278fd1efe9203d4c8b7929ad4004ff9cb7": {
-      "workers": {
-        "app/(home)/gerenciamento/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/criar/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/(home)/gerenciamento/page": "rsc",
-        "app/(home)/gerenciamento/criar/page": "rsc"
-      }
-    },
-    "f8cde2bdcecfafc5e24e454ab39c5e19bf370847": {
-      "workers": {
-        "app/(home)/gerenciamento/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/criar/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=!",
-        "app/(home)/gerenciamento/editar/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinicius%5C%5CDocuments%5C%5CCode%5C%5CDesafio%5C%5CNext-Desafio-2025.1%5C%5Cactions%5C%5Cadmin%5C%5Cproducts%5C%5Cactions.ts%22%2C%5B%22deleteProduct%22%2C%22createProduct%22%2C%22fetchProducts%22%2C%22updateProduct%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/(home)/gerenciamento/page": "rsc",
-        "app/(home)/gerenciamento/criar/page": "rsc",
-        "app/(home)/gerenciamento/editar/[id]/page": "action-browser"
-      }
     }
   },
   "edge": {},
-  "encryptionKey": "XTn+TkIp40YDFxnw7tMEjO4UJ3EPlEu/6il6Pp4fxm0="
+  "encryptionKey": "+Un0jW6SlxaisyhzHsgrlGQfQa3P0Pc9jmZEl+I32iA="
 }

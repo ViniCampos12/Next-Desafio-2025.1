@@ -536,6 +536,45 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1920px) {
+
+  .container {
+    max-width: 1920px;
+  }
+}
+@media (min-width: 2560px) {
+
+  .container {
+    max-width: 2560px;
+  }
+}
+@media (min-width: 3440px) {
+
+  .container {
+    max-width: 3440px;
+  }
+}
 .pointer-events-none {
   pointer-events: none;
 }
@@ -613,6 +652,9 @@ video {
 }
 .mt-24 {
   margin-top: 6rem;
+}
+.block {
+  display: block;
 }
 .flex {
   display: flex;
@@ -1006,6 +1048,9 @@ video {
 .pt-5 {
   padding-top: 1.25rem;
 }
+.pl-2 {
+  padding-left: 0.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1074,6 +1119,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(0 41 162 / var(--tw-text-opacity));
 }
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1082,9 +1131,12 @@ video {
   --tw-text-opacity: 1;
   color: rgb(248 248 248 / var(--tw-text-opacity));
 }
-.text-red-500 {
+.text-red-800 {
   --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+  color: rgb(153 27 27 / var(--tw-text-opacity));
+}
+.text-\[12x\] {
+  color: 12x;
 }
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -1099,6 +1151,9 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+.outline-dashed {
+  outline-style: dashed;
 }
 .transition-all {
   transition-property: all;
@@ -1140,6 +1195,15 @@ video {
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.focus\:outline-dashed:focus {
+  outline-style: dashed;
+}
+.focus\:outline-primary:focus {
+  outline-color: #0029A2;
+}
+.focus\:outline-blue-dark-vs:focus {
+  outline-color: #090056;
 }
 @media (min-width: 768px) {
 
@@ -1585,6 +1649,11 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 @media (min-width: 1920px) {
