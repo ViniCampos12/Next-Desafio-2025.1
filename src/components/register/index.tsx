@@ -1,8 +1,16 @@
-import { Eye } from "lucide-react";
+'use client'
+
+import { Eye,EyeClosed } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Register(){
+
+    const [isEyeClosed, setIsEyeClosed] = useState(true);
+
+    const toggleEye = () => setIsEyeClosed(!isEyeClosed);
+
     return(
         <div className="bg-white-vs rounded-lg w-72 lg:w-[544px] m-0">
             <div className="flex justify-start px-4 lg:px-6">
@@ -23,13 +31,13 @@ export default function Register(){
                         <input type="text" className="border-2 p-1 rounded-xl w-full  bg-transparent border-blue-dark-vs mb-2" />
                         <label className="text-blue-dark-vs lg:text-xl">Senha:</label>
                         <div className="flex justify-center items-center border-2 border-blue-dark-vs rounded-xl mb-2 p-1 gap-1">
-                            <input type="password" className="w-full  bg-transparent outline-none " />
-                            <Eye className="text-blue-dark-vs"/>
+                            <input type={isEyeClosed ? "password" : "text"} className="w-full  bg-transparent outline-none " />
+                            {isEyeClosed ? <EyeClosed className="text-blue-dark-vs" onClick={toggleEye}/> : <Eye className="text-blue-dark-vs" onClick={toggleEye}/> }
                         </div>
                         <label className="text-blue-dark-vs lg:text-xl">Confirmar Senha:</label>
                         <div className="flex justify-center items-center border-2 border-blue-dark-vs rounded-xl mb-2 p-1 gap-1">
-                            <input type="password" className="w-full  bg-transparent outline-none " />
-                            <Eye className="text-blue-dark-vs"/>
+                            <input type={isEyeClosed ? "password" : "text"} className="w-full  bg-transparent outline-none " />
+                            {isEyeClosed ? <EyeClosed className="text-blue-dark-vs" onClick={toggleEye}/> : <Eye className="text-blue-dark-vs" onClick={toggleEye}/> }
                         </div>
                     </div>
                     <div className="flex justify-center items-center">

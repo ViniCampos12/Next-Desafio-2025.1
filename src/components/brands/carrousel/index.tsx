@@ -31,7 +31,7 @@ export default function Carrousel(){
         <Swiper {...settings} className="">
             <SwiperSlide className="w-64 h-28 bg-gray-vs/80 m-0 flex justify-center items-center lg:h-36 lg:w-72 rounded-lg px-2 md:px-3 lg:px-10" >
               <Image
-                    src="/brands/adidas.png"
+                    src="/brands/adidas2.png"
                     alt="Foto da marca"
                     width={200}
                     height={200}
@@ -41,7 +41,7 @@ export default function Carrousel(){
             </SwiperSlide>
             <SwiperSlide className="w-64 h-28 bg-gray-vs/80 m-0 flex justify-center items-center lg:h-36 lg:w-72 rounded-lg px-2 md:px-3 lg:px-10" >
               <Image
-                    src="/brands/nike2.png"
+                    src="/brands/nike3.png"
                     alt="Foto da marca"
                     width={904}
                     height={904}
@@ -51,7 +51,7 @@ export default function Carrousel(){
             </SwiperSlide>
             <SwiperSlide className="w-64 h-28 bg-gray-vs/80 m-0 flex justify-center items-center lg:h-36 lg:w-72 rounded-lg px-2 md:px-3 lg:px-10" >
               <Image
-                    src="/brands/puma2.png"
+                    src="/brands/puma3.png"
                     alt="Foto da marca"
                     width={904}
                     height={904}
@@ -61,7 +61,7 @@ export default function Carrousel(){
             </SwiperSlide>
             <SwiperSlide className="w-64 h-28 bg-gray-vs/80 m-0 flex justify-center items-center lg:h-36 lg:w-72 rounded-lg px-2 md:px-3 lg:px-10" >
               <Image
-                    src="/brands/jordan.png"
+                    src="/brands/jordan2.png"
                     alt="Foto da marca"
                     width={904}
                     height={904}
@@ -71,7 +71,7 @@ export default function Carrousel(){
             </SwiperSlide>
             <SwiperSlide className="w-64 h-28 bg-gray-vs/80 m-0 flex justify-center items-center lg:h-36 lg:w-72 rounded-lg px-2 md:px-3 lg:px-10" >
               <Image
-                    src="/brands/mizuno.png"
+                    src="/brands/vans.png"
                     alt="Foto da marca"
                     width={904}
                     height={904}

@@ -13,7 +13,7 @@ const links = [
     {href: '/contato', label: 'Contato', icone: House},
     {href: '/gerenciamento', label: 'Gerenciamento', icone: House},
     {href: '/login', label: 'Login', icone: House},
-    {href: '/', label: '', icone: ShoppingCart}
+    {href: '/carrinho', label: '', icone: ShoppingCart}
 ]
 
 

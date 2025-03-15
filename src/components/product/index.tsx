@@ -46,7 +46,7 @@ export default function Product({product}: {product: IndividualProduct}) {
                 </p>
                 <div className="flex items-center justify-center">
                     <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-4 lg:py-3 hover:bg-[#140a85] transition-all duration-300" type="button">
-                        <Link href="/" className="flex gap-2 items-center">
+                        <Link href="/carrinho" className="flex gap-2 items-center">
                         Adicionar ao Carrinho <ShoppingCart/>
                         </Link>
                     </button>

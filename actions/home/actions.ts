@@ -12,7 +12,10 @@ export default async function getHighlightsProducts() {
             image: true,
             price: true
         },
-        take: 6
+        take: 6,
+        orderBy: {
+            id: "desc"
+        }
     })
 
     return products;
