@@ -1,5 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/(home)/page": "app/(home)/page.js",
   "/(home)/produtos/page": "app/(home)/produtos/page.js",
   "/(home)/gerenciamento/editar/[id]/page": "app/(home)/gerenciamento/editar/[id]/page.js",

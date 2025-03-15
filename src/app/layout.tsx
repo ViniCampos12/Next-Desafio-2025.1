@@ -22,6 +22,7 @@ const ovo = Ovo({
 export const metadata: Metadata = {
   title: "Vinishoes",
   description: "Loja online Vinishoes, as melhores ofertas e promoções.",
+  icons: "/logo/logo.png", //Mudar ainda
 };
 
 export default function RootLayout({
