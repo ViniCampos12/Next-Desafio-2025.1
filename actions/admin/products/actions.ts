@@ -4,16 +4,23 @@ import { revalidatePath } from "next/cache";
 import prisma from "../../../lib/db"
 import { redirect } from "next/navigation";
 
-export async function fetchProducts(){
+const itemsPerPage = 6;
+
+export async function fetchProducts(currentPage:number){
+    const offset = (currentPage - 1)*itemsPerPage;
     const products = await prisma.product.findMany({
         orderBy: {
             id: "asc",
         },
+        // take: itemsPerPage,
+        skip: offset
     });
 
     const count = await prisma.product.count();
 
-    return {products,count}
+    const totalPages = Math.ceil(count / itemsPerPage);
+
+    return {products,count,totalPages}
 }
 
 export async function deleteProduct(id:number | undefined){

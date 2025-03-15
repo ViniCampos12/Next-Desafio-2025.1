@@ -1,5 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/(home)/page": "app/(home)/page.js",
-  "/(home)/contato/page": "app/(home)/contato/page.js"
+  "/(home)/produto/[id]/page": "app/(home)/produto/[id]/page.js",
+  "/(home)/gerenciamento/visualizar/[id]/page": "app/(home)/gerenciamento/visualizar/[id]/page.js",
+  "/(home)/gerenciamento/page": "app/(home)/gerenciamento/page.js",
+  "/(home)/contato/page": "app/(home)/contato/page.js",
+  "/(home)/gerenciamento/criar/page": "app/(home)/gerenciamento/criar/page.js",
+  "/login/page": "app/login/page.js"
 }

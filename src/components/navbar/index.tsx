@@ -2,7 +2,8 @@
 import { House, Menu, ShoppingCart, X } from "lucide-react"
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
 
   //exigem recursos JavaScript do lado do cliente
 
@@ -18,11 +19,20 @@ const links = [
 
 export default function Navbar(){
 
+    const pathname = usePathname();
+    const searchParams = useSearchParams();
+
     const [isNavOpen, setIsNavOpen] = useState(false);
     //Armazena estado atual e função que altera valor
 
     const toggleNav = () => setIsNavOpen(!isNavOpen)
     //Inverte o valor atual
+
+
+    //Fechar a navbar quando muda link
+    useEffect(() => {
+        setIsNavOpen(false);
+    }, [pathname, searchParams])
 
    return(
     <header className="bg-primary text-white-vs sticky top-0 z-20 mx-auto w-full lg:px-5 ms:p-0">
@@ -53,6 +63,7 @@ export default function Navbar(){
                     {!isNavOpen ? 
                         <Menu
                             onClick={toggleNav}
+                            className="cursor-pointer"
                         />
                         :
                         ""

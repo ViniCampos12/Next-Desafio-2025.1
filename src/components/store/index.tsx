@@ -30,7 +30,7 @@ export default function Store({products, count, totalPages}: {products: Products
         e.preventDefault();
         handleSearch(searchTerm);
     }
-    //
+    
 
     return(
         <div className="flex flex-col items-center justify-center pt-5 pb-5 md:px-3">

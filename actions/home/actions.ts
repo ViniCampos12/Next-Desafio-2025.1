@@ -2,14 +2,6 @@
 
 import prisma from "../../lib/db"
 
-// model Product {
-//     id          Int       @id @default(autoincrement())
-//     name        String    @unique
-//     image        String
-//     description String?
-//     price       Float
-//     sizes       Int[]
-//   }
 
 
 export default async function getHighlightsProducts() {
