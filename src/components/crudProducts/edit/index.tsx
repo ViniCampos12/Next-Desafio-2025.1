@@ -5,7 +5,6 @@ import Link from "next/link"
 import { useState } from "react";
 import { Products } from "../../../../types/data";
 import { updateProduct } from "../../../../actions/admin/products/actions";
-import { Carter_One } from "next/font/google";
 
 export default function EditProduct({product}: {product: Products}){
     const updateProductWithId = updateProduct.bind(null, product?.id);

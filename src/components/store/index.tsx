@@ -12,7 +12,6 @@ import Pagination from "../pagination";
 
 export default function Store({products, count, totalPages}: {products: Products[], count: number, totalPages:number}){
 
-    //Pesquisa min 53 pra fazer sumir coisas ao mudar link    1:21
     const searchParams = useSearchParams();
     const router = useRouter();
     const [searchTerm, setSearchTerm] = useState<string | ''>(searchParams.get('query') || '');

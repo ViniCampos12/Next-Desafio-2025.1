@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image"; 
-import { Facebook, Instagram } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faWhatsapp, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 

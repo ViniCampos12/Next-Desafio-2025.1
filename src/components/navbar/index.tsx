@@ -5,7 +5,6 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 
-  //exigem recursos JavaScript do lado do cliente
 
 const links = [
     {href: '/', label: 'Home', icone: House},
