@@ -1,7 +1,8 @@
 {
-  "/(home)/page": "app/(home)/page.js",
-  "/(home)/produtos/page": "app/(home)/produtos/page.js",
+  "/(home)/gerenciamento/page": "app/(home)/gerenciamento/page.js",
+  "/(home)/gerenciamento/criar/page": "app/(home)/gerenciamento/criar/page.js",
+  "/(home)/gerenciamento/visualizar/[id]/page": "app/(home)/gerenciamento/visualizar/[id]/page.js",
   "/(home)/gerenciamento/editar/[id]/page": "app/(home)/gerenciamento/editar/[id]/page.js",
-  "/login/page": "app/login/page.js",
-  "/(home)/carrinho/page": "app/(home)/carrinho/page.js"
+  "/(home)/produtos/page": "app/(home)/produtos/page.js",
+  "/(home)/page": "app/(home)/page.js"
 }

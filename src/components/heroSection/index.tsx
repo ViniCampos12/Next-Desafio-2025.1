@@ -16,9 +16,12 @@ export default function HeroSection(){
                 />
             </div>
             <div className="col-span-3 flex flex-col gap-5 lg:gap-10 items-center">
-                <p className="text-sm font-ovo lg:text-2xl text-center">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                </p>
+                <div className="flex flex-col gap-2">
+                    <h1 className="text-sm font-ovo lg:text-2xl text-center font-semibold">Encontre o Par Perfeito Para Cada Momento! </h1>
+                    <p className="text-sm font-ovo lg:text-2xl text-center">
+                    Descubra nossa coleção exclusiva de sapatos que unem estilo, conforto e qualidade. Do casual ao elegante, temos o que você precisa para dar o próximo passo com confiança! 
+                    </p>
+                </div>
                 <ButtonVs text={"Conheça nossos produtos"} pageName={"/produtos"}/>
             </div>
         </div>

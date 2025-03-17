@@ -15,7 +15,9 @@ export default function ProductCard({product}: {product: Products}){
             <div className="flex flex-col justify-center items-center gap-2 text-black-vs text-[12px] pl-1 md:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl ">
                 <h2 className="text-center">{product?.name}</h2>
                 <p>R${product?.price}</p>
-                <p className="text-black-bg text-[10px]">{product?.description}</p>
+                <p className="text-black-bg text-[10px]">
+                    {product?.description?.split('.')[0] + '.'}
+                </p>
             </div>
             <div className="flex items-center justify-center">
                 <button className="bg-primary text-white-vs text-sm p-2 lg:text-xl lg:px-4 lg:py-3 hover:bg-[#140a85] transition-all duration-300" type="button">

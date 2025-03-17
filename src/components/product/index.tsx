@@ -9,7 +9,7 @@ import { IndividualProduct } from "../../../types/data";
 
 export default function Product({product}: {product: IndividualProduct}) {
     const [selectedSize, setSelectedSize] = useState<number | null>(null);
-    const sizes = [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43];
+    const sizes = [30,31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45];
     const sizesAvailable = product?.sizes ?? [];
 
     return(
@@ -46,7 +46,7 @@ export default function Product({product}: {product: IndividualProduct}) {
                 </p>
                 <div className="flex items-center justify-center">
                     <button className="bg-primary text-white-vs text-sm p-2 rounded-2xl lg:text-xl lg:px-4 lg:py-3 hover:bg-[#140a85] transition-all duration-300" type="button">
-                        <Link href="/carrinho" className="flex gap-2 items-center">
+                        <Link href={`/carrinho/${product?.id}`} className="flex gap-2 items-center">
                         Adicionar ao Carrinho <ShoppingCart/>
                         </Link>
                     </button>
