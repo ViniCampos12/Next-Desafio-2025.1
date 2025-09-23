@@ -52,7 +52,7 @@ import {
           </Text>
           <Section style={btnContainer}>
             <Button style={button} href={userEmail}>
-              Enviar retorno ao cliente!
+              Enviar retorno ao cliente!      
             </Button>
           </Section>
           <Text style={paragraph}>
@@ -100,7 +100,7 @@ import {
   };
   
   const button = {
-    backgroundColor: '#5F51E8',
+    backgroundColor: '#105407',
     borderRadius: '3px',
     color: '#fff',
     fontSize: '16px',

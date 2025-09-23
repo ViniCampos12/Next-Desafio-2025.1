@@ -8,7 +8,7 @@ export default function HeroSection(){
             <div className="w-36 col-span-3 lg:w-96 md:w-80">
                 <Image
                     src="/home/hero.png"
-                    width={1920}
+                    width={1920}    
                     height={1080}
                     alt="Foto de apresentação"
                     className="w-full h-full lg:w-96 md:w-80"
